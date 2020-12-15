@@ -54,6 +54,8 @@ public class AdminFilter implements Filter {
             } else {
                 response.sendRedirect(loginURI);
             }
+        } else {
+            response.sendRedirect(loginURI);
         }
 
     }
